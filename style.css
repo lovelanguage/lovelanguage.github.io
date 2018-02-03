@@ -1,0 +1,79 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: georgia;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+
+hr {
+  max-width: 75px;
+  border-width: 2px;
+  border-color: black; 
+}
+
+
+.faded {
+  color: #fff; 
+}
+
+.pink{
+  color: #F70064;
+font-size: 125%;
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("beauty.jpeg");
+  background-size: cover;
+  height: 100%;
+ } 
+
+header.startup hr { 
+  
+  
+}
+
+header.startup h1 {
+  font-size: 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+ 
+
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+     
+}
+
+.btn-primary {
+  background-color: #C75689;
+  border-color: #C75689;
+   }
+
+
+.btn-primary:hover {
+  background-color: #EB0085;
+  border-color: #EB0085;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
